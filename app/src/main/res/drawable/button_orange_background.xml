@@ -1,0 +1,24 @@
+<!-- res/drawable/button_orange_background.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false">
+        <!-- Màu cho trạng thái không khả dụng -->
+        <shape android:shape="rectangle">
+            <solid android:color="@color/accept_enabled_color" /> <!-- Màu cam nhạt -->
+            <corners android:radius="8dp" /> <!-- Góc bo tròn -->
+        </shape>
+    </item>
+    <item android:state_pressed="true">
+        <!-- Màu khi nút được nhấn -->
+        <shape android:shape="rectangle">
+            <solid android:color="@color/teal_200" /> <!-- Màu cam đậm hơn khi nhấn -->
+            <corners android:radius="8dp" />
+        </shape>
+    </item>
+    <item>
+        <!-- Màu mặc định của nút -->
+        <shape android:shape="rectangle">
+            <solid android:color="@color/accept_enabled_color" /> <!-- Màu cam chính -->
+            <corners android:radius="8dp" />
+        </shape>
+    </item>
+</selector>

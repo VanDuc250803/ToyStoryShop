@@ -1,0 +1,19 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Nền của nút -->
+    <solid android:color="#172A5C" />
+
+    <!-- Viền trắng của nút -->
+    <stroke
+        android:width="2dp"
+    android:color="#FFFFFF" /> <!-- Màu trắng của viền -->
+
+    <!-- Bo góc của nút -->
+    <corners android:radius="50dp" />
+
+    <!-- Đặt padding cho nội dung nút -->
+    <padding
+        android:left="8dp"
+        android:top="8dp"
+        android:right="8dp"
+        android:bottom="8dp" />
+</shape>

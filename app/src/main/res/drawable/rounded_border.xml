@@ -1,0 +1,5 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/accept_enabled_color" /> <!-- Màu nền của TextView -->
+    <corners android:radius="20dp" /> <!-- Viền cong với bán kính 8dp -->
+    <stroke android:color="#A6A6A6" android:width="1dp" /> <!-- Viền màu và độ dày -->
+</shape>

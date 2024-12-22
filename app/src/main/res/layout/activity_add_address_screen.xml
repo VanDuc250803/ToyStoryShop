@@ -1,0 +1,108 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/SCREEN"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Nút quay lại -->
+    <ImageView
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="Back"
+        android:padding="8dp"
+        android:src="@drawable/back_icon_1"
+        android:layout_margin="2dp"/>
+
+    <!-- Tiêu đề -->
+    <TextView
+        android:id="@+id/titleText"
+        style="@style/TEXT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingVertical="16dp"
+        android:text="@string/add_address"
+        android:textSize="24sp" />
+
+    <!-- Tên người nhận -->
+    <EditText
+        android:id="@+id/etName"
+        style="@style/TEXT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name_address"
+        android:inputType="textPersonName"
+        android:padding="12dp" />
+
+    <!-- Số điện thoại -->
+    <EditText
+        android:id="@+id/etPhoneNumber"
+        style="@style/TEXT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/phone_address"
+        android:inputType="phone"
+        android:padding="12dp" />
+
+    <!-- Địa chỉ -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <!-- EditText cho địa chỉ -->
+        <EditText
+            android:id="@+id/etAddress"
+            style="@style/TEXT"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/addressModel"
+            android:inputType="textPostalAddress"
+            android:padding="12dp"
+            android:layout_marginEnd="8dp" />
+
+        <!-- ImageView (Ví dụ: biểu tượng thêm) -->
+        <ImageView
+            android:id="@+id/imgADD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/add1"
+            android:padding="8dp" />
+    </LinearLayout>
+
+    <!-- Chi tiết địa chỉ -->
+    <EditText
+        android:id="@+id/etAddressDetail"
+        style="@style/TEXT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/address_detail"
+        android:inputType="text"
+        android:padding="12dp" />
+
+    <CheckBox
+        android:id="@+id/cbDefault"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/set_as_default_address" />
+    <!-- Nút lưu -->
+
+
+    <TextView
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/button_orange_background"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="@string/save"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Nút quay lại -->
+    <ImageView
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="Back"
+        android:padding="8dp"
+        android:src="@drawable/back_icon_1" />
+
+    <!-- Tiêu đề -->
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingVertical="16dp"
+        android:text="@string/change_address"
+        android:textColor="#001A61"
+        android:textSize="24sp" />
+
+    <!-- Tên người nhận -->
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#001A61"
+        android:hint="@string/name_hint"
+        android:textColor="#001A61"
+        android:inputType="textPersonName"
+        android:padding="12dp" />
+
+    <!-- Số điện thoại -->
+    <EditText
+        android:id="@+id/etPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#001A61"
+        android:hint="@string/phone_address"
+        android:textColor="#001A61"
+        android:inputType="phone"
+        android:padding="12dp" />
+
+    <!-- Địa chỉ -->
+    <EditText
+        android:id="@+id/etAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#001A61"
+        android:hint="@string/location"
+        android:textColor="#001A61"
+        android:inputType="textPostalAddress"
+        android:padding="12dp" />
+
+    <!-- Chi tiết địa chỉ -->
+    <EditText
+        android:id="@+id/etAddressDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#001A61"
+        android:hint="@string/address_details"
+        android:textColor="#001A61"
+        android:inputType="text"
+        android:padding="12dp" />
+
+    <CheckBox
+        android:id="@+id/cbDefault"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/set_as_default_address" />
+    <!-- Nút lưu -->
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#001A61"
+        android:paddingVertical="16dp"
+        android:text="@string/save"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

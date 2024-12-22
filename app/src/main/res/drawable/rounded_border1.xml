@@ -1,0 +1,9 @@
+<!-- res/drawable/rounded_border.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Bo tròn góc -->
+    <corners android:radius="8dp" />
+
+    <!-- Màu nền trong suốt -->
+    <solid android:color="#33000000" /> <!-- Màu trắng với độ trong suốt -->
+
+</shape>

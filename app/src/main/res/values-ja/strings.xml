@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    tiếng nhật-->
+
+   <string name="app_name">ToyStory ショップ</string>
+    <!-- Home_Fragment -->
+    <string name="search_product_homefm">商品を検索</string>
+    <string name="new_arrivals_homefm">新着商品</string>
+    <string name="blind_box_homefm">ブラインドボックス</string>
+    <string name="figuring_homefm">フィギュア</string>
+    <string name="other_products_homefm">その他の商品</string>
+    <string name="sale_homefm">セール</string>
+    <string name="limited_figure_homefm">限定版</string>
+    <string name="new_product_homefm">新商品</string>
+    <string name="see_all_homefm">すべてを見る</string>
+    <string name="popular_product_homefm">人気商品</string>
+    <string name="store_follow_homefm">ストアをフォロー</string>
+    <string name="view_all_homefm">すべてを見る</string>
+    <string name="follow_homefm">フォロー</string>
+    <string name="all_new_pro">すべての新商品</string>
+    <string name="all_sale_pro">すべてのセール商品</string>
+    <string name="all_popular_pro">すべての人気商品</string>
+
+
+    <!-- Profile_Fragment -->
+    <string name="sign_out_success_pro">サインアウトに成功しました</string>
+    <string name="setting_pro">設定</string>
+    <string name="language_currency_pro">言語と通貨</string>
+    <string name="evaluate_pro">評価する</string>
+    <string name="refer_friends_pro">友達を紹介する</string>
+    <string name="terms_conditions_pro">利用規約</string>
+    <string name="privacy_security_pro">プライバシーとセキュリティ</string>
+    <string name="sign_out_pro">サインアウト</string>
+
+    <!-- Currency_Language_screen -->
+    <string name="select_language">言語を選択してください： </string>
+    <string name="select_currency">通貨を選択：</string>
+
+    <!-- Evaluate_screen -->
+    <string name="star_rating_eva">星評価を選択してください</string>
+    <string name="thank_review_eva">ご評価ありがとうございます！</string>
+    <string name="review_shop_eva">ToyStoryショップのレビュー</string>
+    <string name="feedback_eva">ここにフィードバックを入力してください</string>
+    <string name="submit_review_eva">レビューを送信</string>
+
+    <!-- Introduce_Friends_screen -->
+    <string name="intro_title_int">今すぐToyStoryショップを探索し、ユニークなおもちゃモデルと紹介コードで特別な報酬を受け取ろう：</string>
+    <string name="share_with_friends_int">友達とシェアする</string>
+    <string name="intro_rewards_int">紹介して特別な報酬をゲット</string>
+    <string name="share_referral_code_int">紹介コードをシェア</string>
+    <string name="steps_to_get_rewards_int">以下の手順を友達に案内して、両方に報酬をゲット：</string>
+    <string name="step_1_int">1. ToyStoryショップアプリを開き、「紹介」を選択。</string>
+    <string name="step_2_int">2. アカウント登録時に紹介コードを入力。</string>
+    <string name="step_3_int">3. 手順を完了後、両方に特別な報酬が届きます。</string>
+    <string name="share_button_int">友達とシェア</string>
+
+    <!-- Privacy_Security_screen -->
+    <string name="privacy_security_title">プライバシーとセキュリティ</string>
+    <string name="privacy_content">
+    <![CDATA[
+    ToyStory Shopは、お客様のプライバシーと個人情報の安全を保護することをお約束します。以下の条項をよくお読みいただき、情報の利用方法と保護方法をご理解ください。\n\n
+
+    1. 個人データの収集と利用：\n
+    お客様の名前、住所、電話番号、メールアドレス、お支払い情報などの個人情報を収集し、最良のサービスを提供します。この情報は注文の完了、顧客サポート、および体験向上のためにのみ使用されます。\n\n
+
+    2. クッキーとトラッキング技術：\n
+    ToyStory Shopは、クッキーとトラッキング技術を使用して、お客様の体験をパーソナライズし、サービス向上のために閲覧行動を監視します。必要に応じてクッキーを拒否または管理することができます。\n\n
+
+    3. データへのアクセス、編集、および削除権：\n
+    お客様には、個人情報へのアクセス、編集、または削除を要求する権利があります。アカウントまたはサポート経由でご連絡ください。\n\n
+
+    4. 第三者との情報共有：\n
+    ToyStory Shopは、配送業者や決済パートナーなど、注文を完了するために必要な場合のみ第三者と情報を共有します。これらのパートナーは高いセキュリティ基準を守り、お客様の情報を保護します。\n\n
+
+    5. 情報セキュリティ：\n
+    私たちは暗号化や二要素認証などの技術的および組織的な対策を実施し、個人データを保護します。すべての支払い取引は暗号化されており、財務データを保護します。\n\n
+
+    6. プライバシーポリシーの更新：\n
+    ToyStory Shopは、必要に応じてプライバシーおよびセキュリティポリシーを変更する権利を有します。定期的に確認して、権利と責任を把握してください。\n\n
+
+    7. 連絡とサポート：\n
+    プライバシーに関する質問やリクエストがある場合は、サポートメールまたは電話番号からご連絡ください。
+    ]]>
+</string>
+    <string name="privacy_agree">プライバシーとセキュリティ条項を読み、同意します。</string>
+    <string name="accepted_message_privacy">プライバシーとセキュリティ条項に同意しました。</string>
+    <string name="confirm_exit_without_accepting_privacy">
+    プライバシーとセキュリティ条項に同意せずに終了してもよろしいですか？
+    </string>
+
+    <!-- Setting_screen -->
+    <string name="dark_mode_enabled_set">ダークモードが</string>
+    <string name="dark_mode_on_set">有効になりました</string>
+    <string name="dark_mode_off_set">無効になりました</string>
+    <string name="update_profile_set">個人情報を更新</string>
+    <string name="change_password_set">パスワードを変更</string>
+    <string name="notification_set">通知</string>
+    <string name="dark_mode_set">ダークモード</string>
+    <string name="contact_support_set">サポートに連絡</string>
+    <string name="status_notifi">通知は</string>
+    <string name="intro_title_detail">今すぐ商品を購入：</string>
+    <string name="noti_block">通知をオフ</string>
+    <string name="notification">通知</string>
+    <string name="ed">が</string>
+    <string name="support">サポート</string>
+    <string name="support_chat">チャットサポート</string>
+    <string name="support_phone">電話サポート</string>
+    <string name="support_email">メールサポート</string>
+    <string name="service">サービス</string>
+    <string name="attachment">添付ファイル</string>
+    <string name="title_contact">タイトル</string>
+    <string name="descr_contact">説明</string>
+    <string name="btn_attachm">ファイルを選択</string>
+    <string name="edt_email">メールアドレスを入力</string>
+    <string name="edt_title">タイトルを入力</string>
+    <string name="edt_des">説明を入力</string>
+    <string name="send_contact">送信</string>
+    <string name="prompt_select_city">県/市を選択</string>
+    <string name="prompt_select_district">区/郡を選択</string>
+
+    <!-- Terms_Conditions_screen -->
+    <string name="conditions_content_ter">
+    <![CDATA[
+    ToyStoryショップアプリへようこそ！アプリケーションを使用する前に、以下の利用規約をよくお読みください。\n\n
+
+    1. 利用規約：ToyStoryショップアプリにアクセスおよび使用することで、これらの規約に同意したものとみなします。不同意の場合は、アプリの使用を中止してください。\n\n
+
+    2. アカウント登録：購入およびToyStoryショップの機能を使用するには、アカウント登録が必要です。アカウントのセキュリティを確保し、情報を共有しないようにする責任はあなたにあります。\n\n
+
+     3. 製品と価格設定：私たちは正規のモデルおもちゃを提供しています。製品の価格は予告なしに変更される場合がありますが、注文時の価格が最終支払額となります。\n\n
+
+    4. 支払い：ToyStoryショップではオンライン支払い方法をサポートしています。配送を行う前に全額を支払う必要があります。\n\n
+
+    5. 配送ポリシー：全国配送対応で、3〜7営業日以内にお届けします。送料はチェックアウト時に表示されます。\n\n
+
+    6. 返品ポリシー：未使用で元の包装のままの場合、7日以内に返品可能です。製造上の欠陥があった場合、無料で交換いたします。\n\n
+
+    7. 情報セキュリティ：個人情報を保護し、最良のサービスを提供するためにのみ使用します。\n\n
+
+    8. 規約の変更：ToyStoryショップは、予告なしにこれらの規約を変更する権利を有します。変更は、更新された時点で直ちに有効になります。\n\n
+
+    ToyStoryショップアプリを使用することで、これらの利用規約に同意したものとみなします。\n\n
+    ]]>
+    </string>
+    <string name="accepted_message_ter">規約を承諾していただきありがとうございます！</string>
+    <string name="confirm_exit_without_accepting_ter">規約を承諾せずに終了してもよろしいですか？</string>
+    <string name="exit_button_ter">終了</string>
+    <string name="stay_button_ter">滞在</string>
+    <string name="terms_and_conditions_title_ter">利用規約</string>
+    <string name="agree_statement_ter">利用規約に同意します</string>
+    <string name="accept_button_ter">承諾</string>
+
+    <!-- forgot_pass -->
+    <string name="forgot_text">あなたの情報を確認します</string>
+    <string name="forgot_text1">パスワードをリセットするために情報を入力してください</string>
+    <string name="send_button">リクエストを送信</string>
+    <string name="Toast_send">パスワードをリセットするためのメールを送信しました！</string>
+    <string name="Toast_send_error">メールを送信できません。メールアドレスを確認してください。</string>
+
+    <!-- forgotOTP -->
+    <string name="forgot_otp_pass">新しいパスワードを入力してください</string>
+    <string name="forgot_otp_success">パスワードが正常に更新されました！</string>
+    <string name="forgot_otp_error">パスワードの更新に失敗しました！</string>
+    <string name="forgot_otp_title">パスワードを更新！</string>
+
+    <!-- phone number -->
+    <string name="send_sdt">電話番号を確認します</string>
+    <string name="send_text_phone">SMSにコードを送信しました</string>
+    <string name="send_otp_error">OTPの送信に失敗しました：</string>
+
+    <!-- phone otp -->
+    <string name="no_otp">コードを受け取っていませんか？コードを再送します</string>
+    <string name="otp_verify">有効なOTPを入力してください。</string>
+    <string name="otp_fail">認証に失敗しました！</string>
+
+    <!-- signin -->
+    <string name="welcome_text">ToyStory ショップへようこそ！</string>
+    <string name="signin_account">アカウントにサインイン</string>
+    <string name="email_hint">メール/電話番号</string>
+    <string name="password_hint">パスワード</string>
+    <string name="signin_button">サインイン</string>
+    <string name="google_login_button">Googleでサインイン</string>
+    <string name="forgot_password">パスワードを忘れましたか？</string>
+    <string name="signup_prompt">アカウントをお持ちではありませんか？</string>
+    <string name="signup_now">今すぐ登録</string>
+
+    <!-- signup -->
+    <string name="signup_account">アカウントを登録する</string>
+    <string name="name_hint">フルネーム</string>
+    <string name="re_password_hint">パスワードを再入力してください</string>
+    <string name="signup_button">登録</string>
+    <string name="signin_prompt">すでにアカウントをお持ちですか？</string>
+    <string name="signin_now">今すぐサインイン</string>
+    <string name="signup_sdt">登録に成功しました！電話番号を入力してください。</string>
+
+    <!-- Toast Register_login -->
+    <string name="Toast_infor">すべての情報を入力してください！</string>
+    <string name="Toast_email">有効なメールアドレスを入力してください！</string>
+    <string name="Toast_format">正しい形式を入力してください！</string>
+    <string name="Toast_google">Googleのサインインに失敗しました！</string>
+    <string name="Toast_success">サインインに成功しました</string>
+    <string name="Toast_failure">サインインに失敗しました！</string>
+    <string name="Toast_success_sign">登録に成功しました！</string>
+    <string name="Toast_failure_signup">登録に失敗しました！</string>
+    <string name="Toast_wrong_password">パスワードが間違っています！</string>
+    <string name="Toast_donot_pass">パスワードが一致しません！</string>
+    <string name="Toast_wrong_sdt">電話番号が存在しません！</string>
+    <string name="Toast_pass">パスワードは少なくとも6文字以上、大文字を1文字以上含む必要があります！</string>
+    <string name="Toast_wrong">入力された情報が正しくありません。もう一度確認してください！</string>
+
+    <!-- menu -->
+    <string name="home_menu">ホーム</string>
+    <string name="browse_menu">検索</string>
+    <string name="artstory_menu">ニュース</string>
+    <string name="history_menu">購入履歴</string>
+    <string name="profile_menu">プロフィール</string>
+
+
+
+
+    <string name="sort_by">並び替え</string>
+    <string name="blindbox">ブラインドボックス</string>
+    <string name="search_hint">商品を探す</string>
+    <string name="search">検索</string>
+    <string name="other_products">その他の商品</string>
+    <string name="newarrivals">新商品</string>
+    <string name="limited_figure">限定フィギュア</string>
+    <string name="figuring">フィギュア</string>
+    <string name="art_store">アートストア</string>
+    <string name="location">場所</string>
+    <string name="category">カテゴリー</string>
+
+
+    <string name="favorite_list">お気に入りリスト</string>
+    <string name="my_store">私の店</string>
+    <string name="name_pro">商品名</string>
+    <string name="add_cart">カートに追加</string>
+    <string name="brand">ブランド：</string>
+
+    <string name="add_address">住所を追加</string>
+    <string name="name_address">氏名</string>
+    <string name="phone_address">電話番号</string>
+    <string name="addressModel">住所</string>
+    <string name="address_rev">配送先住所</string>
+    <string name="address_detail">詳細住所</string>
+    <string name="save">保存</string>
+    <string name="choose_address">住所を選択</string>
+    <string name="enter_mess">メッセージを入力</string>
+    <string name="send">送信</string>
+    <string name="cart">カート</string>
+    <string name="choose_code">コードを選択または入力</string>
+    <string name="all">すべて</string>
+    <string name="buy">購入</string>
+    <string name="pay">支払い</string>
+    <string name="method_ship">配送方法</string>
+    <string name="method_pay">支払い方法</string>
+    <string name="detail_pay">支払い詳細</string>
+    <string name="total_pro">商品合計</string>
+    <string name="total_ship">配送料合計</string>
+    <string name="total_pay">支払合計</string>
+    <string name="sp">サポートが必要ですか？</string>
+
+    <string name="info_pro">商品情報</string>
+    <string name="info_order">注文情報</string>
+    <string name="feedback_order_his">評価</string>
+
+    <string name="article_title">記事タイトル</string>
+    <string name="author">著者</string>
+    <string name="publish_date">公開日</string>
+    <string name="article_content">記事の詳細内容</string>
+    <string name="image_caption_1">画像キャプション 1</string>
+    <string name="image_caption_2">画像キャプション 2</string>
+    <string name="image_caption_3">画像キャプション 3</string>
+    <string name="filter">フィルター</string>
+    <string name="enter_password">パスワードを入力</string>
+    <string name="chat">チャット</string>
+    <string name="purchased_products">購入済み商品</string>
+    <string name="shop_voucher">ショップクーポン</string>
+    <string name="save_money">節約</string>
+    <string name="approved_check">承認済みチェック</string>
+    <string name="message_for_shop">ショップへのメッセージ</string>
+    <string name="leave_message">メッセージを残す</string>
+    <string name="free_shipping">送料無料</string>
+    <string name="payment_on_delivery">代金引換</string>
+    <string name="agree_terms">「注文する」をクリックすると、以下に同意したことになります</string>
+    <string name="soy_story_terms">SoyStory の利用規約</string>
+    <string name="place_order">注文する</string>
+    <string name="contact_shop">ショップに連絡する</string>
+    <string name="total_amount">合計金額</string>
+    <string name="paypal_wallet_favorite">PayPal ウォレット（お気に入り）</string>
+    <string name="agree">同意する</string>
+
+    <string name="fast_delivery_excluding_weekends">迅速な配達（土日除く）</string>
+    <string name="official_distribution">ToyStory Shop はブランドからの正規品を提供</string>
+    <string name="discount_shipping_for_all_orders">全ての注文に送料割引</string>
+    <string name="note_return_exchange">***注意：製造上の不具合がある場合、商品は受け取り後3日以内に返品/交換可能です。開封動画が必要です。</string>
+    <string name="low_stock">在庫僅少：残り</string>
+    <string name="product"> 点</string>
+    <string name="details">商品の詳細</string>
+    <string name="shipping_methods">ToyStory Shop の配送方法\n以下の配送方法を選択することで、ToyStory Shop アプリで注文を追跡できます：</string>
+    <string name="fast">速達</string>
+    <string name="express_shipping">特急配送</string>
+    <string name="guaranteed_delivery_today">本日中の配達を保証</string>
+    <string name="confirm">確認</string>
+    <string name="store_location">店舗の場所</string>
+    <string name="toy_story_shop_description">ToyStory Shop は LEGO、Bandai、Funko、Hot Wheels などの有名ブランドの模型玩具を販売する正規小売システムです。</string>
+    <string name="enter_location_to_find_nearest_store">最寄りの店舗を探すために場所を入力</string>
+    <string name="enter_email">メールアドレスを入力</string>
+    <string name="enter_name">名前を入力</string>
+    <string name="enter_phone_number">電話番号を入力</string>
+    <string name="select_voucher">クーポンを選択</string>
+    <string name="shipping_fee_discount">送料割引</string>
+    <string name="can_select_one_voucher">クーポンは1枚のみ選択可能</string>
+    <string name="see_more">もっと見る</string>
+    <string name="change_address">住所を変更</string>
+    <string name="address_details">住所の詳細</string>
+    <string name="wholesale_price_available">卸売価格あり</string>
+
+    <string name="quantity">数量</string>
+    <string name="warehouse">倉庫</string>
+    <string name="price">価格</string>
+    <string name="apply">適用</string>
+    <string name="from">から</string>
+    <string name="to">まで</string>
+    <string name="sort">並べ替え</string>
+    <string name="purchase_order">購入注文</string>
+    <string name="view_purchase_history">購入履歴を見る</string>
+    <string name="waiting_for_confirmation">確認待ち</string>
+    <string name="waiting_for_pickup">集荷待ち</string>
+    <string name="waiting_for_delivery">配達待ち</string>
+    <string name="free_return">無料返品</string>
+    <string name="in_stock">在庫あり</string>
+    <string name="product_description">商品説明</string>
+    <string name="customer_name">顧客名</string>
+    <string name="customer_phone">顧客電話番号</string>
+    <string name="customer_address">顧客住所</string>
+    <string name="default1">デフォルト</string>
+    <string name="delete">削除</string>
+    <string name="review_content">レビュー内容</string>
+    <string name="product_review">商品レビュー</string>
+    <string name="delivered">配送済み</string>
+    <string name="limited_stock">在庫限定</string>
+    <string name="maximum_discount">最大割引</string>
+    <string name="minimum_order_0d">最低注文 0₫</string>
+
+    <string name="sort_by1">並び替え</string>
+    <string name="highlighted">注目</string>
+    <string name="best_selling">売れ筋</string>
+    <string name="alphabetical_order">アルファベット順 (A-Z)</string>
+    <string name="reverse_alphabetical_order">逆アルファベット順 (Z-A)</string>
+    <string name="price_low_to_high">価格 (安い順)</string>
+    <string name="price_high_to_low">価格 (高い順)</string>
+    <string name="date_newest_to_oldest">日付 (新しい順)</string>
+    <string name="date_oldest_to_newest">日付 (古い順)</string>
+
+</resources>

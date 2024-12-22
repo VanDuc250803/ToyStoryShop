@@ -1,0 +1,18 @@
+<!-- res/drawable/info_window_background.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Màu nền cho InfoWindow -->
+    <solid android:color="#FF9800"/> <!-- Màu tím, bạn có thể thay bằng màu mong muốn -->
+
+    <!-- Bo tròn góc -->
+    <corners android:radius="8dp"/>
+
+    <!-- Viền cho InfoWindow -->
+    <stroke android:width="2dp" android:color="#FFFFFF"/> <!-- Viền màu trắng -->
+
+    <!-- Đổ bóng hoặc padding bên trong nếu muốn -->
+    <padding
+        android:left="8dp"
+        android:top="8dp"
+        android:right="8dp"
+        android:bottom="8dp"/>
+</shape>

@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--    tiếng trung-->
+    <string name="app_name">ToyStory 商店</string>
+    <!-- Home_Fragment -->
+    <string name="search_product_homefm">搜索产品</string>
+    <string name="new_arrivals_homefm">新品到货</string>
+    <string name="blind_box_homefm">盲盒</string>
+    <string name="figuring_homefm">手办</string>
+    <string name="other_products_homefm">其他产品</string>
+    <string name="sale_homefm">促销</string>
+    <string name="limited_figure_homefm">限量版</string>
+    <string name="new_product_homefm">新品</string>
+    <string name="see_all_homefm">查看全部</string>
+    <string name="popular_product_homefm">热门产品</string>
+    <string name="store_follow_homefm">关注店铺</string>
+    <string name="view_all_homefm">查看全部</string>
+    <string name="follow_homefm">关注</string>
+    <string name="all_new_pro">所有新品</string>
+    <string name="all_sale_pro">所有促销产品</string>
+    <string name="all_popular_pro">所有热门产品</string>
+
+
+    <!-- Profile_Fragment -->
+    <string name="sign_out_success_pro">成功退出</string>
+    <string name="setting_pro">设置</string>
+    <string name="language_currency_pro">语言和货币</string>
+    <string name="evaluate_pro">评价</string>
+    <string name="refer_friends_pro">推荐给朋友</string>
+    <string name="terms_conditions_pro">条款和条件</string>
+    <string name="privacy_security_pro">隐私和安全</string>
+    <string name="sign_out_pro">退出登录</string>
+
+    <!-- Currency_Language_screen -->
+    <string name="select_language">选择语言： </string>
+    <string name="select_currency">选择货币：</string>
+
+    <!-- Evaluate_screen -->
+    <string name="star_rating_eva">请选择星级评分</string>
+    <string name="thank_review_eva">感谢您的评价！</string>
+    <string name="review_shop_eva">评价ToyStory商店</string>
+    <string name="feedback_eva">在这里输入您的反馈</string>
+    <string name="submit_review_eva">提交评价</string>
+
+    <!-- Introduce_Friends_screen -->
+    <string name="intro_title_int">立即探索ToyStory商店，通过独特的玩具模型和您的推荐码获取特别奖励：</string>
+    <string name="share_with_friends_int">通过以下方式与朋友分享</string>
+    <string name="intro_rewards_int">推荐并获取特别奖励</string>
+    <string name="share_referral_code_int">分享您的推荐码</string>
+    <string name="steps_to_get_rewards_int">引导朋友按照以下步骤操作，双方皆可获得奖励：</string>
+    <string name="step_1_int">1. 打开ToyStory商店应用程序并选择推荐。</string>
+    <string name="step_2_int">2. 注册账号时输入推荐码。</string>
+    <string name="step_3_int">3. 完成步骤后，你们双方将获得特别奖励。</string>
+    <string name="share_button_int">与朋友分享</string>
+
+    <!-- Privacy_Security_screen -->
+    <string name="privacy_security_title">隐私和安全</string>
+    <string name="privacy_content">
+    <![CDATA[
+    ToyStory Shop致力于保护您的隐私和个人信息安全。请仔细阅读以下条款，以了解我们如何使用和保护您的信息。\n\n
+
+    1. 个人数据的收集和使用：\n
+    我们收集您的姓名、地址、电话号码、电子邮件和付款信息，以提供最佳服务。这些信息仅用于完成订单、客户支持和提升您的体验。\n\n
+
+    2. Cookies和跟踪技术：\n
+    ToyStory Shop使用Cookies和跟踪技术个性化您的体验，并监控浏览行为以改进服务。您可以选择拒绝或管理Cookies。\n\n
+
+    3. 访问、编辑和删除数据的权利：\n
+    您有权访问、编辑或请求删除您的个人信息。请通过您的账户或支持联系我们以进行操作。\n\n
+
+    4. 与第三方共享信息：\n
+    ToyStory Shop仅在必要时与第三方共享信息，例如与物流或支付合作伙伴，以完成订单。这些合作方均遵循严格的安全标准以保护您的信息。\n\n
+
+    5. 信息安全：\n
+    我们采用技术和组织措施来保护个人数据，包括加密和双重认证。所有支付交易均加密以保护您的财务数据。\n\n
+
+    6. 隐私政策更新：\n
+    ToyStory Shop保留在必要时更改隐私和安全政策的权利。我们建议您定期检查，以了解您的权利和责任。\n\n
+
+    7. 联系与支持：\n
+    如果您有隐私相关的问题或请求，请通过支持邮箱或电话与我们联系。
+    ]]>
+</string>
+    <string name="privacy_agree">我已阅读并同意隐私和安全条款。</string>
+    <string name="accepted_message_privacy">您已同意隐私和安全条款。</string>
+    <string name="confirm_exit_without_accepting_privacy">
+    您确定要在不同意隐私和安全条款的情况下退出吗？
+    </string>
+
+    <!-- Setting_screen -->
+    <string name="dark_mode_enabled_set">黑暗模式已</string>
+    <string name="dark_mode_on_set">开启</string>
+    <string name="dark_mode_off_set">关闭</string>
+    <string name="update_profile_set">更新个人信息</string>
+    <string name="change_password_set">更改密码</string>
+    <string name="notification_set">通知</string>
+    <string name="dark_mode_set">黑暗模式</string>
+    <string name="contact_support_set">联系支持</string>
+    <string name="status_notifi">通知已被</string>
+    <string name="intro_title_detail">立即购买产品：</string>
+    <string name="noti_block">关闭通知</string>
+    <string name="notification">通知</string>
+    <string name="ed">已被</string>
+    <string name="support">支持</string>
+    <string name="support_chat">聊天支持</string>
+    <string name="support_phone">电话支持</string>
+    <string name="support_email">邮件支持</string>
+    <string name="service">服务</string>
+    <string name="attachment">附件</string>
+    <string name="title_contact">标题</string>
+    <string name="descr_contact">描述</string>
+    <string name="btn_attachm">选择文件</string>
+    <string name="edt_email">输入您的电子邮件</string>
+    <string name="edt_title">输入标题</string>
+    <string name="edt_des">输入描述</string>
+    <string name="send_contact">发送</string>
+    <string name="prompt_select_city">选择省/城市</string>
+    <string name="prompt_select_district">选择区/县</string>
+
+    <!-- Terms_Conditions_screen -->
+    <string name="conditions_content_ter">
+    <![CDATA[
+    欢迎来到ToyStory商店应用程序！在使用我们的应用程序之前，请仔细阅读以下条款和条件。\n\n
+
+    1. 使用条款：通过访问和使用ToyStory商店应用程序，您同意这些条款。如果不同意，请停止使用应用程序。\n\n
+
+    2. 账号注册：您必须注册账号才能购买和使用ToyStory商店的功能。您有责任确保账号安全，并且不分享账号信息。\n\n
+
+    3. 产品与定价：我们提供正品模型玩具。产品价格可能会在不通知的情况下更改，但下单时的价格将是最终支付价格。\n\n
+
+    4. 支付：ToyStory商店支持在线支付方式。您需确保支付完成后我们才会发货。\n\n
+
+    5. 运输政策：我们在全国范围内发货，发货时间为3-7个工作日。运费将在结算时显示。\n\n
+
+    6. 退换政策：产品在未使用且保持原包装的情况下，可在7天内退换。如果因制造缺陷而出现问题，您将免费更换。\n\n
+
+    7. 信息安全：我们致力于保护您的个人信息，仅用于提供最佳服务。\n\n
+
+    8. 条款修改：ToyStory商店保留在不通知的情况下更改这些条款的权利。更改将在更新后立即生效。\n\n
+
+    使用ToyStory商店应用程序，即表示您同意这些条款和条件。\n\n
+    ]]>
+    </string>
+    <string name="accepted_message_ter">感谢您接受条款！</string>
+    <string name="confirm_exit_without_accepting_ter">您确定要在不接受条款的情况下退出吗？</string>
+    <string name="exit_button_ter">退出</string>
+    <string name="stay_button_ter">留下</string>
+    <string name="terms_and_conditions_title_ter">条款和条件</string>
+    <string name="agree_statement_ter">我同意条款和条件</string>
+    <string name="accept_button_ter">接受</string>
+
+    <!-- forgot_pass -->
+    <string name="forgot_text">验证您的信息</string>
+    <string name="forgot_text1">请输入信息以重置密码</string>
+    <string name="send_button">发送请求</string>
+    <string name="Toast_send">我们已向您的邮箱发送了重置密码的邮件！</string>
+    <string name="Toast_send_error">无法发送邮件。请检查您的电子邮件地址。</string>
+
+    <!-- forgotOTP -->
+    <string name="forgot_otp_pass">请输入新密码</string>
+    <string name="forgot_otp_success">密码更新成功！</string>
+    <string name="forgot_otp_error">密码更新失败！</string>
+    <string name="forgot_otp_title">更新密码！</string>
+
+    <!-- phone number -->
+    <string name="send_sdt">验证您的电话号码</string>
+    <string name="send_text_phone">我们已发送带有代码的短信到您的手机号码</string>
+    <string name="send_otp_error">发送 OTP 失败：</string>
+
+    <!-- phone otp -->
+    <string name="no_otp">没有收到代码吗？重新发送代码</string>
+    <string name="otp_verify">请输入有效的 OTP。</string>
+    <string name="otp_fail">验证失败！</string>
+
+    <!-- signin -->
+    <string name="welcome_text">欢迎来到 ToyStory 商店！</string>
+    <string name="signin_account">登录您的帐户</string>
+    <string name="email_hint">电子邮件/电话号码</string>
+    <string name="password_hint">密码</string>
+    <string name="signin_button">登录</string>
+    <string name="google_login_button">通过 Google 登录</string>
+    <string name="forgot_password">忘记密码？</string>
+    <string name="signup_prompt">还没有帐户？</string>
+    <string name="signup_now">立即注册</string>
+
+    <!-- signup -->
+    <string name="signup_account">注册您的帐户</string>
+    <string name="name_hint">全名</string>
+    <string name="re_password_hint">重新输入密码</string>
+    <string name="signup_button">注册</string>
+    <string name="signin_prompt">已有帐户？</string>
+    <string name="signin_now">立即登录</string>
+    <string name="signup_sdt">注册成功！请输入您的电话号码。</string>
+
+    <!-- Toast Register_login -->
+    <string name="Toast_infor">请填写所有信息！</string>
+    <string name="Toast_email">请输入有效的电子邮件地址！</string>
+    <string name="Toast_format">请输入正确的格式！</string>
+    <string name="Toast_google">Google 登录失败！</string>
+    <string name="Toast_success">登录成功</string>
+    <string name="Toast_failure">登录失败！</string>
+    <string name="Toast_success_sign">注册成功！</string>
+    <string name="Toast_failure_signup">注册失败！</string>
+    <string name="Toast_wrong_password">密码错误！</string>
+    <string name="Toast_donot_pass">密码不匹配！</string>
+    <string name="Toast_wrong_sdt">电话号码不存在！</string>
+    <string name="Toast_pass">密码必须至少包含 6 个字符，其中至少 1 个为大写字母！</string>
+    <string name="Toast_wrong">您输入的信息不正确，请再次检查！</string>
+
+    <!-- menu -->
+    <string name="home_menu">首页</string>
+    <string name="browse_menu">浏览</string>
+    <string name="artstory_menu">新闻</string>
+    <string name="history_menu">购买历史</string>
+    <string name="profile_menu">个人资料</string>
+
+
+
+    <string name="sort_by">排序方式</string>
+    <string name="blindbox">盲盒</string>
+    <string name="search_hint">搜索产品</string>
+    <string name="search">搜索</string>
+    <string name="other_products">其他产品</string>
+    <string name="newarrivals">新品到货</string>
+    <string name="limited_figure">限量雕像</string>
+    <string name="figuring">雕像</string>
+    <string name="art_store">艺术商店</string>
+    <string name="location">位置</string>
+    <string name="category">分类</string>
+
+
+    <string name="favorite_list">收藏夹</string>
+    <string name="my_store">我的商店</string>
+    <string name="name_pro">产品名称</string>
+    <string name="add_cart">加入购物车</string>
+    <string name="brand">品牌：</string>
+
+    <string name="add_address">添加地址</string>
+    <string name="name_address">姓名</string>
+    <string name="phone_address">电话号码</string>
+    <string name="addressModel">地址</string>
+    <string name="address_rev">收货地址</string>
+    <string name="address_detail">详细地址</string>
+    <string name="save">保存</string>
+    <string name="choose_address">选择您的地址</string>
+    <string name="enter_mess">输入留言</string>
+    <string name="send">发送</string>
+    <string name="cart">购物车</string>
+    <string name="choose_code">选择或输入代码</string>
+    <string name="all">全部</string>
+    <string name="buy">购买</string>
+    <string name="pay">支付</string>
+    <string name="method_ship">配送方式</string>
+    <string name="method_pay">支付方式</string>
+    <string name="detail_pay">支付详情</string>
+    <string name="total_pro">商品总价</string>
+    <string name="total_ship">运费总计</string>
+    <string name="total_pay">总支付金额</string>
+    <string name="sp">需要帮助吗？</string>
+
+    <string name="info_pro">产品信息</string>
+    <string name="info_order">订单信息</string>
+    <string name="feedback_order_his">评价</string>
+
+    <string name="article_title">文章标题</string>
+    <string name="author">作者</string>
+    <string name="publish_date">发布日期</string>
+    <string name="article_content">文章详细内容</string>
+    <string name="image_caption_1">图片说明 1</string>
+    <string name="image_caption_2">图片说明 2</string>
+    <string name="image_caption_3">图片说明 3</string>
+    <string name="filter">筛选</string>
+    <string name="enter_password">输入密码</string>
+    <string name="chat">聊天</string>
+    <string name="purchased_products">已购买商品</string>
+    <string name="shop_voucher">店铺优惠券</string>
+    <string name="save_money">省钱</string>
+    <string name="approved_check">已通过检查</string>
+    <string name="message_for_shop">给店铺的留言</string>
+    <string name="leave_message">留下留言</string>
+    <string name="free_shipping">免运费</string>
+    <string name="payment_on_delivery">货到付款</string>
+    <string name="agree_terms">点击‘下单’即表示您同意遵守</string>
+    <string name="soy_story_terms">SoyStory 条款</string>
+    <string name="place_order">下单</string>
+    <string name="contact_shop">联系店铺</string>
+    <string name="total_amount">总金额</string>
+    <string name="paypal_wallet_favorite">PayPal 钱包（收藏）</string>
+    <string name="agree">同意</string>
+
+    <string name="fast_delivery_excluding_weekends">快速送达（不含周六 - 周日）</string>
+    <string name="official_distribution">ToyStory Shop 是品牌的官方分销商</string>
+    <string name="discount_shipping_for_all_orders">所有订单均享运费折扣</string>
+    <string name="note_return_exchange">***注意：若为生产商问题，商品可在收到货后3天内退/换，需提供开箱视频。</string>
+    <string name="low_stock">库存不足：剩余</string>
+    <string name="product"> 件商品</string>
+    <string name="details">商品详情</string>
+    <string name="shipping_methods">ToyStory Shop 的配送方式\n选择以下任意配送方式，即可通过 ToyStory Shop 应用程序跟踪订单：</string>
+    <string name="fast">快速</string>
+    <string name="express_shipping">特快</string>
+    <string name="guaranteed_delivery_today">保证今天送达</string>
+    <string name="confirm">确认</string>
+    <string name="store_location">店铺位置</string>
+    <string name="toy_story_shop_description">ToyStory Shop 是销售来自知名品牌的正版玩具模型的零售系统，如 LEGO、Bandai、Funko、Hot Wheels 等。</string>
+    <string name="enter_location_to_find_nearest_store">输入位置以查找最近的店铺</string>
+    <string name="enter_email">输入邮箱</string>
+    <string name="enter_name">输入姓名</string>
+    <string name="enter_phone_number">输入手机号</string>
+    <string name="select_voucher">选择优惠券</string>
+    <string name="shipping_fee_discount">运费优惠</string>
+    <string name="can_select_one_voucher">可选择一张优惠券</string>
+    <string name="see_more">查看更多</string>
+    <string name="change_address">更改地址</string>
+    <string name="address_details">地址详情</string>
+    <string name="wholesale_price_available">提供批发价</string>
+
+    <string name="quantity">数量</string>
+    <string name="warehouse">仓库</string>
+    <string name="price">价格</string>
+    <string name="apply">应用</string>
+    <string name="from">从</string>
+    <string name="to">到</string>
+    <string name="sort">排序</string>
+    <string name="purchase_order">购买订单</string>
+    <string name="view_purchase_history">查看购买历史</string>
+    <string name="waiting_for_confirmation">等待确认</string>
+    <string name="waiting_for_pickup">等待取货</string>
+    <string name="waiting_for_delivery">等待送货</string>
+    <string name="free_return">免费退货</string>
+    <string name="in_stock">有货</string>
+    <string name="product_description">产品描述</string>
+    <string name="customer_name">客户姓名</string>
+    <string name="customer_phone">客户电话</string>
+    <string name="customer_address">客户地址</string>
+    <string name="default1">默认</string>
+    <string name="delete">删除</string>
+    <string name="review_content">评价内容</string>
+    <string name="product_review">产品评价</string>
+    <string name="delivered">已送达</string>
+    <string name="limited_stock">库存有限</string>
+    <string name="maximum_discount">最大折扣</string>
+    <string name="minimum_order_0d">最低订单 0₫</string>
+
+    <string name="sort_by1">排序方式</string>
+    <string name="highlighted">突出</string>
+    <string name="best_selling">畅销</string>
+    <string name="alphabetical_order">字母顺序 (A-Z)</string>
+    <string name="reverse_alphabetical_order">逆字母顺序 (Z-A)</string>
+    <string name="price_low_to_high">价格 (从低到高)</string>
+    <string name="price_high_to_low">价格 (从高到低)</string>
+    <string name="date_newest_to_oldest">日期 (从新到旧)</string>
+    <string name="date_oldest_to_newest">日期 (从旧到新)</string>
+
+
+</resources>

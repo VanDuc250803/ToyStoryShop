@@ -1,0 +1,415 @@
+<resources>
+    <string name="app_name">ToyStory Shop</string>
+
+    <!-- Fragment -->
+    <!-- Home_Fragment -->
+    <string name="search_product_homefm">Tìm kiếm sản phẩm</string>
+    <string name="new_arrivals_homefm">Sản phẩm mới</string>
+    <string name="blind_box_homefm">Sản phẩm ngẫu nhiên</string>
+    <string name="figuring_homefm">Mô hình</string>
+    <string name="other_products_homefm">Sản phẩm khác</string>
+    <string name="sale_homefm">Giảm giá</string>
+    <string name="limited_figure_homefm">Phiên bản giới hạn</string>
+    <string name="new_product_homefm">Sản phẩm mới</string>
+    <string name="see_all_homefm">Xem tất cả</string>
+    <string name="popular_product_homefm">Sản phẩm phổ biến</string>
+    <string name="store_follow_homefm">Theo dõi cửa hàng</string>
+    <string name="view_all_homefm">Xem tất cả</string>
+    <string name="follow_homefm">Theo dõi</string>
+    <string name="all_new_pro">Tất cả sản phẩm mới</string>
+    <string name="all_sale_pro">Sản phẩm giảm giá</string>
+    <string name="all_popular_pro">Tất cả sản phẩm phổ biến</string>
+
+    <!-- Profile_Fragment -->
+    <string name="sign_out_success_pro">Đăng xuất thành công</string>
+    <string name="setting_pro">Cài đặt</string>
+    <string name="language_currency_pro">Ngôn ngữ </string>
+    <string name="evaluate_pro">Đánh giá Ứng dụng</string>
+    <string name="refer_friends_pro">Giới thiệu bạn bè</string>
+    <string name="terms_conditions_pro">Điều khoản &amp; Điều kiện</string>
+    <string name="privacy_security_pro">Quyền riêng tư &amp; Bảo mật</string>
+    <string name="sign_out_pro">Đăng xuất</string>
+
+    <!-- Profile -->
+    <!-- Currency_Language_screen -->
+    <string name="select_language">Chọn ngôn ngữ: </string>
+    <string name="select_currency">Chọn loại tiền: </string>
+
+    <!-- Evaluate_screen -->
+    <string name="star_rating_eva">Vui lòng chọn đánh giá sao </string>
+    <string name="thank_review_eva">Cảm ơn bạn đã gửi đánh giá! </string>
+    <string name="review_shop_eva">Đánh giá ToyStory Shop </string>
+    <string name="feedback_eva">Nhập phản hồi của bạn tại đây</string>
+    <string name="submit_review_eva">Gửi đánh giá</string>
+
+    <!-- Introduce_Friends_screen -->
+    <string name="intro_title_int">Khám phá ngay ToyStory Shop với các mô hình đồ chơi độc đáo và nhận quà ưu đãi với mã giới thiệu:</string>
+    <string name="share_with_friends_int">Chia sẻ với bạn bè qua</string>
+    <string name="intro_rewards_int">Giới thiệu &amp; nhận ngay quà ưu đãi</string>
+    <string name="share_referral_code_int">Chia sẻ mã giới thiệu của bạn</string>
+    <string name="steps_to_get_rewards_int">Hướng dẫn bạn bè thực hiện qua các bước sau để nhận quà:</string>
+    <string name="step_1_int">1. Mở ứng dụng ToyStory Shop và thực hiện mua sắm .</string>
+    <string name="step_2_int">2. Nhập mã giới thiệu vào phần mã giảm giá.</string>
+    <string name="step_3_int">3. Có một mã ưu đãi đặc biệt dành cho bạn của bạn.</string>
+    <string name="share_button_int">Chia sẻ với bạn bè</string>
+
+    <!--  Privacy_Security_screen-->
+    <string name="privacy_security_title">Quyền Riêng Tư &amp; Bảo Mật</string>
+    <string name="privacy_content">
+    <![CDATA[
+    ToyStory Shop cam kết bảo vệ quyền riêng tư và bảo mật thông tin cá nhân của bạn. Vui lòng đọc kỹ các điều khoản sau để hiểu cách chúng tôi sử dụng và bảo vệ thông tin của bạn.\n\n
+
+    1. Thu thập và Sử dụng Dữ liệu Cá nhân:\n
+    Chúng tôi thu thập các thông tin cá nhân như tên, địa chỉ, số điện thoại, email, và thông tin thanh toán của bạn nhằm cung cấp dịch vụ tốt nhất. Thông tin này chỉ được sử dụng cho mục đích hoàn thành đơn hàng, hỗ trợ khách hàng, và nâng cao trải nghiệm của bạn.\n\n
+
+    2. Cookies và Công nghệ Theo dõi:\n
+    ToyStory Shop sử dụng cookies và công nghệ theo dõi để cá nhân hóa trải nghiệm của bạn và theo dõi hành vi duyệt web nhằm cải thiện dịch vụ. Bạn có thể tùy chọn từ chối hoặc quản lý cookies theo nhu cầu.\n\n
+
+    3. Quyền Truy cập, Chỉnh sửa và Xóa Dữ liệu:\n
+    Bạn có quyền truy cập, chỉnh sửa hoặc yêu cầu xóa thông tin cá nhân của mình. Để thực hiện, vui lòng liên hệ với chúng tôi qua tài khoản của bạn hoặc qua bộ phận hỗ trợ.\n\n
+
+    4. Chia sẻ Thông tin với Bên Thứ Ba:\n
+    ToyStory Shop chỉ chia sẻ thông tin với các bên thứ ba khi cần thiết, chẳng hạn như bên giao hàng hoặc đối tác thanh toán, nhằm hoàn thành đơn hàng. Các bên này đều phải tuân thủ các tiêu chuẩn bảo mật cao để bảo vệ thông tin của bạn.\n\n
+
+    5. Bảo mật Thông tin:\n
+    Chúng tôi áp dụng các biện pháp kỹ thuật và tổ chức để bảo vệ dữ liệu cá nhân, bao gồm mã hóa và xác thực hai yếu tố. Tất cả giao dịch thanh toán đều được mã hóa để bảo vệ dữ liệu tài chính của bạn.\n\n
+
+    6. Cập nhật Chính sách Quyền Riêng Tư:\n
+    ToyStory Shop có quyền thay đổi chính sách quyền riêng tư và bảo mật khi cần thiết. Chúng tôi khuyến nghị bạn kiểm tra định kỳ để hiểu rõ quyền và trách nhiệm của mình.\n\n
+
+    7. Liên hệ và Hỗ trợ:\n
+    Nếu bạn có câu hỏi hoặc yêu cầu liên quan đến quyền riêng tư, vui lòng liên hệ với chúng tôi qua địa chỉ email hoặc số điện thoại hỗ trợ.
+    ]]>
+    </string>
+    <string name="privacy_agree">Tôi đã đọc và đồng ý với các điều khoản về Quyền Riêng Tư &amp; Bảo Mật.</string>
+    <string name="accepted_message_privacy">Bạn đã đồng ý với các điều khoản về Quyền Riêng Tư &amp; Bảo Mật.</string>
+    <string name="confirm_exit_without_accepting_privacy">Bạn có chắc chắn muốn thoát mà không đồng ý với các điều khoản về Quyền Riêng Tư &amp; Bảo Mật không?</string>
+
+    <!-- Setting_screen -->
+    <string name="dark_mode_enabled_set">Chế độ tối đã được </string>
+    <string name="dark_mode_on_set">bật</string>
+    <string name="dark_mode_off_set">tắt</string>
+    <string name="update_profile_set">Cập nhật thông tin cá nhân</string>
+    <string name="change_password_set">Thay đổi mật khẩu</string>
+    <string name="notification_set">Thông báo</string>
+    <string name="dark_mode_set">Chế độ tối</string>
+    <string name="contact_support_set">Liên hệ hỗ trợ</string>
+    <string name="status_notifi">Thông báo đã bị</string>
+    <string name="intro_title_detail">Mua ngay sản phẩm :</string>
+    <string name="noti_block">Tắt thông báo</string>
+    <string name="notification">Thông báo</string>
+    <string name="ed">đã được</string>
+    <string name="support">Hỗ trợ</string>
+    <string name="support_chat">Hỗ trợ qua chat</string>
+    <string name="support_phone">Hỗ trợ qua điện thoại</string>
+    <string name="support_email">Hỗ trợ qua email</string>
+    <string name="service">Dịch vụ</string>
+    <string name="attachment">Tập tin đính kèm</string>
+    <string name="title_contact">Tiêu đề</string>
+    <string name="descr_contact">Mô tả</string>
+    <string name="btn_attachm">Chọn tệp tin</string>
+    <string name="edt_email">Nhập email của bạn</string>
+    <string name="edt_title">Nhập tiêu đề</string>
+    <string name="edt_des">Nhập mô tả</string>
+    <string name="send_contact">Gửi</string>
+    <string name="prompt_select_city">Chọn tỉnh/thành phố</string>
+    <string name="prompt_select_district">Chọn quận/huyện</string>
+
+    <!-- Terms_Conditions_screen -->
+    <string name="conditions_content_ter">
+        <![CDATA[
+        Chào mừng bạn đến với ứng dụng ToyStory Shop! Vui lòng đọc kỹ các Điều khoản và Điều kiện dưới đây trước khi sử dụng ứng dụng của chúng tôi.\n\n
+
+        1. Điều Khoản Sử Dụng: Khi truy cập và sử dụng ứng dụng ToyStory Shop, bạn đồng ý tuân theo các Điều khoản này. Nếu bạn không đồng ý, vui lòng ngừng sử dụng ứng dụng.\n\n
+
+        2. Đăng Ký Tài Khoản: Bạn phải đăng ký tài khoản để mua hàng và sử dụng các tính năng của ToyStory Shop. Bạn chịu trách nhiệm về bảo mật tài khoản và không chia sẻ thông tin tài khoản.\n\n
+
+        3. Sản Phẩm và Giá Cả: Chúng tôi cung cấp các sản phẩm đồ chơi mô hình chính hãng. Giá sản phẩm có thể thay đổi mà không cần thông báo trước, nhưng giá khi đặt hàng sẽ là giá thanh toán cuối cùng.\n\n
+
+        4. Thanh Toán: ToyStory Shop hỗ trợ các phương thức thanh toán trực tuyến. Bạn cần đảm bảo thanh toán đầy đủ trước khi chúng tôi tiến hành giao hàng.\n\n
+
+        5. Chính Sách Giao Hàng: Chúng tôi giao hàng toàn quốc với thời gian từ 3-7 ngày làm việc. Phí giao hàng sẽ được hiển thị khi thanh toán.\n\n
+
+        6. Chính Sách Đổi Trả: Sản phẩm có thể được đổi trả trong vòng 7 ngày nếu chưa qua sử dụng và còn nguyên bao bì. Nếu sản phẩm lỗi do nhà sản xuất, bạn sẽ được đổi miễn phí.\n\n
+
+        7. Bảo Mật Thông Tin: Chúng tôi cam kết bảo vệ thông tin cá nhân của bạn và chỉ sử dụng chúng để cung cấp dịch vụ tốt nhất.\n\n
+
+        8. Sửa Đổi Điều Khoản: ToyStory Shop có quyền thay đổi các Điều khoản này mà không cần thông báo trước. Các thay đổi sẽ có hiệu lực ngay khi được cập nhật.\n\n
+
+        Bằng cách sử dụng ứng dụng ToyStory Shop, bạn đồng ý với các Điều khoản và Điều Kiện này.\n\n
+        ]]>
+    </string>
+    <string name="accepted_message_ter">Cảm ơn bạn đã chấp nhận điều khoản!</string>
+    <string name="confirm_exit_without_accepting_ter">Bạn có chắc chắn muốn thoát mà không chấp nhận Điều khoản và Điều kiện không?</string>
+    <string name="exit_button_ter">Thoát</string>
+    <string name="stay_button_ter">Ở lại</string>
+    <string name="terms_and_conditions_title_ter">Điều khoản và Điều kiện</string>
+    <string name="agree_statement_ter">Tôi đồng ý với các điều khoản và điều kiện</string>
+    <string name="accept_button_ter">Chấp nhận</string>
+
+    <!-- Register_login -->
+    <!-- forgot_pass -->
+    <string name="Toast_email">Vui lòng nhập địa chỉ email hợp lệ!</string>
+    <string name="Toast_failure">Đăng nhập thất bại!</string>
+    <string name="Toast_send">Chúng tôi đã gửi mail đến hộp thư của bạn để đổi mật khẩu!</string>
+    <string name="Toast_send_error">Không thể gửi mail. Hãy kiểm tra lại địa chỉ email.</string>
+    <string name="Toast_wrong">Thông tin hiện không đúng, Hãy kiểm tra lại !</string>
+    <string name="send_otp_error">"Gửi OTP thất bại</string>
+    <string name="forgot_text">Xác minh thông tin của bạn</string>
+    <string name="forgot_text1">Vui lòng nhập thông tin để đổi mật khẩu</string>
+    <string name="send_button">Gửi yêu cầu</string>
+    <string name="forgot_otp_pass">Vui lòng nhập mật khẩu mới</string>
+    <string name="forgot_otp_success">Cập nhập mật khẩu thành công!</string>
+    <string name="forgot_otp_error">Cập nhập mật khẩu thất bại!</string>
+    <string name="forgot_otp_title">Cập nhập mật khẩu !</string>
+    <string name="send_sdt">Xác minh số điện thoại của bạn</string>
+    <string name="send_text_phone">Chúng tôi đã gửi cho bạn một tin nhắn SMS kèm theo mã để nhập số</string>
+    <string name="no_otp">"Bạn không nhận được mã nào à? Gửi lại mã mới</string>
+    <string name="otp_verify">"Vui lòng nhập mã OTP hợp lệ.</string>
+    <string name="otp_fail">"Xác minh thất bại!</string>
+    <string name="welcome_text">Chào mừng đến ToyStory Shop !</string>
+    <string name="signin_account">Đăng nhập vào tài khoản của bạn</string>
+    <string name="email_hint">Email/Số điện thoại</string>
+    <string name="password_hint">Mật khẩu</string>
+    <string name="signin_button">Đăng nhập</string>
+    <string name="google_login_button">Đăng nhập với Google</string>
+    <string name="forgot_password">Quên mật khẩu?</string>
+    <string name="signup_prompt">Bạn chưa có tài khoản?</string>
+    <string name="signup_now">Đăng ký ngay</string>
+    <string name="signup_account">Đăng ký tài khoản của bạn</string>
+    <string name="name_hint">Họ và tên</string>
+    <string name="re_password_hint">Nhập Lại Mật khẩu</string>
+    <string name="signup_button">Đăng Ký</string>
+    <string name="signin_prompt">Bạn đã có tài khoản?</string>
+    <string name="signin_now">Đăng nhập ngay</string>
+    <string name="signup_sdt">Đăng ký thành công! Vui lòng nhập số điện thoại.</string>
+    <string name="Toast_infor">Vui lòng nhập đủ thông tin!</string>
+    <string name="Toast_format">Vui lòng nhập đúng định dạng!</string>
+    <string name="Toast_google">Đăng nhập Google thất bại!</string>
+    <string name="Toast_success">Đăng Nhập Thành công</string>
+    <string name="Toast_success_sign">Đăng Ký Thành công !</string>
+    <string name="Toast_failure_signup">Đăng Ký thất bại!</string>
+    <string name="Toast_wrong_password">Mật khẩu không đúng!</string>
+    <string name="Toast_donot_pass">Mật khẩu không khớp!</string>
+    <string name="Toast_wrong_sdt">Số điện thoại không tồn tại!</string>
+    <string name="Toast_pass">Mật khẩu phải có ít nhất 6 ký tự, bao gồm ít nhất 1 ký tự viết hoa!</string>
+
+    <!-- menu -->
+    <string name="home_menu">Trang Chủ</string>
+    <string name="browse_menu">Tìm Kiếm</string>
+    <string name="artstory_menu">Tin tức</string>
+    <string name="history_menu">Lịch Sử Mua</string>
+    <string name="profile_menu">Hồ Sơ</string>
+
+
+    <string name="sort_by">Sắp xếp sản phẩm</string>
+    <string name="blindbox">Hộp mù</string>
+    <string name="search_hint">Tìm kiếm sản phẩm</string>
+    <string name="search">Tìm kiếm</string>
+    <string name="other_products">Các sản phẩm khác</string>
+    <string name="newarrivals">Sản phẩm mới</string>
+    <string name="limited_figure">Sản phẩm giới hạn</string>
+    <string name="figuring">Figuring</string>
+    <string name="art_store">Sản phẩm nghệ thuật</string>
+    <string name="location">Địa chỉ</string>
+    <string name="category">Phân loại</string>
+    <string name="toys_52">52 Toys</string>
+    <string name="squid_game">Squid Game</string>
+    <string name="toystoryshop">ToyStoryShop</string>
+    <string name="heyone">HeyOne</string>
+    <string name="finding_unicorn">Finding Unicorn</string>
+    <string name="blokees">Blokees</string>
+    <string name="bandai_candy">Bandai Candy</string>
+
+
+    <string name="favorite_list">Danh sách ưa thích</string>
+    <string name="my_store">Cửa hàng của tôi</string>
+    <string name="name_pro">Tên sản phẩm</string>
+    <string name="add_cart">Thêm vào giỏ hàng</string>
+    <string name="brand">Thương hiệu </string>
+
+    <string name="add_address">Thêm địa chỉ</string>
+    <string name="name_address">Họ và tên</string>
+    <string name="phone_address">Số điện thoại</string>
+    <string name="addressModel">Địa chỉ</string>
+    <string name="address_rev">Địa chỉ nhận hàng</string>
+    <string name="address_detail">Địa chỉ chi tiết</string>
+    <string name="save">Lưu</string>
+    <string name="choose_address">Chọn địa chỉ của bạn</string>
+    <string name="enter_mess">Nhập tin nhắn</string>
+    <string name="send">Gửi</string>
+    <string name="cart">Giỏ hàng</string>
+    <string name="choose_code">Chọn hoặc nhập mã</string>
+    <string name="all">Tất cả</string>
+    <string name="buy">Mua hàng</string>
+    <string name="pay">Thanh toán</string>
+    <string name="method_ship">Phương thức vận chuyển</string>
+    <string name="method_pay">Phương thức thanh toán</string>
+    <string name="detail_pay">Chi tiết thanh toán</string>
+    <string name="total_pro">Tổng tiền hàng</string>
+    <string name="total_ship">Tổng tiền phí vận chuyển</string>
+    <string name="total_pay">Tổng thanh toán</string>
+    <string name="sp">Bạn cần hỗ trợ?</string>
+
+    <string name="article_title">Tiêu đề bài viết</string>
+    <string name="author">Tác giả</string>
+    <string name="publish_date">Ngày đăng</string>
+    <string name="article_content">Nội dung chi tiết của bài viết</string>
+    <string name="image_caption_1">Chú thích ảnh 1</string>
+    <string name="image_caption_2">Chú thích ảnh 2</string>
+    <string name="image_caption_3">Chú thích ảnh 3</string>
+    <string name="filter">Bộ lọc</string>
+    <string name="enter_password">Nhập mật khẩu</string>
+    <string name="chat">Trò chuyện</string>
+    <string name="purchased_products">Sản phẩm đã mua</string>
+    <string name="shop_voucher">Mã giảm giá</string>
+    <string name="save_money">Tiết kiệm</string>
+    <string name="approved_check">Được đồng kiểm</string>
+    <string name="message_for_shop">Lời nhắn cho Shop</string>
+    <string name="leave_message">Để lại lời nhắn</string>
+    <string name="free_shipping">Miễn Phí Vận Chuyển</string>
+    <string name="payment_on_delivery">Thanh toán khi nhận hàng</string>
+    <string name="agree_terms">Nhấn \'Đặt hàng\' đồng nghĩa với việc bạn đồng ý tuân theo</string>
+    <string name="soy_story_terms">Điều khoản SoyStory</string>
+    <string name="place_order">Đặt hàng</string>
+    <string name="contact_shop">Liên hệ Shop</string>
+    <string name="total_amount">Tổng số tiền</string>
+    <string name="paypal_wallet_favorite">Ví VNPAY (Yêu thích)</string>
+    <string name="agree">ĐỒNG Ý</string>
+    ////////
+
+    <string name="fast_delivery_excluding_weekends">Nhận hàng nhanh chóng (không tính T7 - CN)</string>
+    <string name="official_distribution">ToyStory Shop phân phối chính hãng từ thương hiệu</string>
+    <string name="discount_shipping_for_all_orders">Giảm giá vận chuyển cho tất cả các đơn hàng</string>
+    <string name="note_return_exchange">***Lưu ý: Sản phẩm được hoàn/đổi trong vòng 3 ngày sau khi nhận hàng, nếu là lỗi do nhà sản xuất và phải có video khui mở kiện hàng.</string>
+    <string name="low_stock">Sắp hết hàng: Còn</string>
+    <string name="product"> sản phẩm</string>
+    <string name="details">Chi tiết sản phẩm</string>
+    <string name="shipping_methods">Các phương thức vận chuyển của ToyStory Shop\nBạn có thể theo dõi đơn hàng trên ứng dụng ToyStory Shop khi chọn một trong các phương thức vận chuyển:</string>
+    <string name="fast">Nhanh</string>
+    <string name="express_shipping">Hỏa Tốc</string>
+    <string name="guaranteed_delivery_today">Đảm bảo nhận hàng vào hôm nay</string>
+    <string name="confirm">Xác nhận</string>
+    <string name="store_location">Vị trí cửa hàng</string>
+    <string name="toy_story_shop_description">ToyStory Shop là hệ thống bán lẻ chính hãng các mô hình đồ chơi từ các thương hiệu nổi tiếng như LEGO, Bandai, Funko, Hot Wheels,...</string>
+    <string name="enter_location_to_find_nearest_store">Nhập vị trí để tìm cửa hàng gần nhất</string>
+    <string name="enter_email">Nhập email</string>
+    <string name="enter_name">Nhập tên</string>
+    <string name="enter_phone_number">Nhập số điện thoại</string>
+    <string name="select_voucher">Chọn mã giảm giá</string>
+    <string name="shipping_fee_discount">Ưu đãi phí vận chuyển</string>
+    <string name="can_select_one_voucher">Có thể chọn 1 mã giảm giá</string>
+    <string name="see_more">Xem thêm</string>
+    <string name="change_address">Thay đổi địa chỉ</string>
+    <string name="address_details">Chi tiết địa chỉ</string>
+    <string name="wholesale_price_available">Có giá bán buôn, bán sỉ</string>
+
+    <string name="remember">Ghi chú thêm</string>
+    <string name="quantity">Số lượng</string>
+    <string name="warehouse">Kho</string>
+    <string name="price">Giá</string>
+    <string name="apply">Áp dụng</string>
+    <string name="from">Từ</string>
+    <string name="to">Đến</string>
+    <string name="sort">Sắp xếp</string>
+    <string name="purchase_order">Đơn mua</string>
+    <string name="view_purchase_history">Xem lịch sử mua hàng</string>
+    <string name="waiting_for_confirmation">Chờ xác nhận</string>
+    <string name="waiting_for_pickup">Chờ lấy hàng</string>
+    <string name="waiting_for_delivery">Chờ giao hàng</string>
+    <string name="free_return">Trả hàng miễn phí</string>
+    <string name="in_stock">Còn hàng</string>
+    <string name="product_description">Mô tả sản phẩm</string>
+    <string name="customer_name">Tên khách hàng</string>
+    <string name="customer_phone">Số điện thoại khách hàng</string>
+    <string name="customer_address">Địa chỉ khách hàng</string>
+    <string name="default1">Mặc định</string>
+    <string name="delete">Xóa</string>
+    <string name="review_content">Nội dung đánh giá</string>
+    <string name="product_review">Đánh giá sản phẩm</string>
+    <string name="delivered">Đã giao</string>
+    <string name="limited_stock">Số lượng có hạn</string>
+    <string name="maximum_discount">Giảm tối đa</string>
+    <string name="minimum_order_0d">Đơn tối thiểu 0đ</string>
+
+    <string name="sort_by1">Sắp xếp theo</string>
+    <string name="highlighted">Nổi bật</string>
+    <string name="best_selling">Bán chạy nhất</string>
+    <string name="alphabetical_order">Thứ tự bảng chữ cái (từ A-Z)</string>
+    <string name="reverse_alphabetical_order">Thứ tự bảng chữ cái (từ Z-A)</string>
+    <string name="price_low_to_high">Giá (từ thấp đến cao)</string>
+    <string name="price_high_to_low">Giá (từ cao xuống thấp)</string>
+    <string name="date_newest_to_oldest">Ngày (từ mới đến cũ)</string>
+    <string name="date_oldest_to_newest">Ngày (từ cũ đến mới)</string>
+
+    <string name="view_cancel_history">Xem lịch sử hủy</string>
+    <string name="canceled_products">Sản phẩm đã hủy</string>
+    <string name="canceled">Đã hủy</string>
+    <string name="cancel_order">Hủy đơn hàng</string>
+    <string name="buy_back">Mua lại</string>
+    <string name="return_goods">Trả hàng</string>
+    <string name="view_detail">Xem chi tiết</string>
+    <string name="enter_new_password">Nhập mật khẩu mới</string>
+    <string name="enter_new1_password">Nhập lại mật khẩu mới</string>
+    <string name="set_as_default_address">Đặt làm địa chỉ mặc định</string>
+    <string name="enter_shop_voucher_code">Nhập mã shop voucher</string>
+    <string name="the_shopping_cart_has_no_products">Giỏ hàng không có sản phẩm</string>
+    <string name="the_favorite_cart_has_no_products">Không có sản phẩm yêu thích</string>
+    <string name="no_order">Bạn chưa có đơn hàng nào</string>
+    <string name="no_feedback">Bạn chưa có đánh giá nào</string>
+    <string name="plan">Phương án</string>
+    <string name="refund_return">Trả hàng hoàn tiền</string>
+    <string name="refund_amount">Số tiền hoàn lại</string>
+    <string name="refund_in">Hoàn tiền vào</string>
+    <string name="bank_account">Tài khoản ngân hàng</string>
+    <string name="requestednow">Đã yêu cầu lúc</string>
+    <string name="reason_for_return">Lý do trả hàng</string>
+    <string name="email">Email*</string>
+    <string name="return_goods_detail">Chi tiết trả hàng</string>
+    <string name="return_request_code">Mã yêu cầu trả hàng</string>
+    <string name="order_details">Chi tiết đơn hàng</string>
+    <string name="cancel_request">Hủy yêu cầu</string>
+    <string name="discuss_further">Trao đổi thêm</string>
+    <string name="confirmed">Đã xác nhận</string>
+    <string name="received_complete_goods">Đã nhận hàng hoàn</string>
+    <string name="refund">Hoàn tiền</string>
+    <string name="payment">Thanh toán</string>
+
+    <string-array name="sort_options">
+        <item>Giá thấp - cao</item>
+        <item>Giá cao - thấp</item>
+    </string-array>
+
+    <string name="info_pro">Thông tin sản phẩm</string>
+    <string name="info_order">Thông tin đơn hàng</string>
+    <string name="feedback_order_his">Đánh giá</string>
+
+    <string-array name="country_codes">
+        <!--        Việt Nam-->
+        <item>+84</item>
+        <!--        Vương Quốc Anh-->
+        <item>+44</item>
+        <!--        Trung Quốc-->
+        <item>+86</item>
+        <!--        Nhật Bản-->
+        <item>+81</item>
+    </string-array>
+
+    <string-array name="months_array">
+        <item>...</item>
+        <item>Tháng 1</item>
+        <item>Tháng 2</item>
+        <item>Tháng 3</item>
+        <item>Tháng 4</item>
+        <item>Tháng 5</item>
+        <item>Tháng 6</item>
+        <item>Tháng 7</item>
+        <item>Tháng 8</item>
+        <item>Tháng 9</item>
+        <item>Tháng 10</item>
+        <item>Tháng 11</item>
+        <item>Tháng 12</item>
+    </string-array>
+
+
+</resources>

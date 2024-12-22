@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    tiếng anh-->
+        <string name="app_name">ToyStory Shop</string>
+        <!-- Home_Fragment -->
+        <string name="search_product_homefm">Search for products</string>
+        <string name="new_arrivals_homefm">New arrivals</string>
+        <string name="blind_box_homefm">Blind box</string>
+        <string name="figuring_homefm">Figure</string>
+        <string name="other_products_homefm">Other products</string>
+        <string name="sale_homefm">Sale</string>
+        <string name="limited_figure_homefm">Limited edition</string>
+        <string name="new_product_homefm">New products</string>
+        <string name="see_all_homefm">See all</string>
+        <string name="popular_product_homefm">Popular products</string>
+        <string name="store_follow_homefm">Follow store</string>
+        <string name="view_all_homefm">View all</string>
+        <string name="follow_homefm">Follow</string>
+        <string name="all_new_pro">All new products</string>
+        <string name="all_sale_pro">All sale products</string>
+        <string name="all_popular_pro">All popular products</string>
+
+
+        <!-- Profile_Fragment -->
+        <string name="sign_out_success_pro">Sign out successfully</string>
+        <string name="setting_pro">Settings</string>
+        <string name="language_currency_pro">Language and Currency</string>
+        <string name="evaluate_pro">Rate Us</string>
+        <string name="refer_friends_pro">Refer Friends</string>
+        <string name="terms_conditions_pro">Terms and Conditions</string>
+        <string name="privacy_security_pro">Privacy &amp; Security</string>
+        <string name="sign_out_pro">Sign Out</string>
+
+        <!-- Currency_Language_screen -->
+        <string name="select_language">Select Language: </string>
+        <string name="select_currency">Select currency:</string>
+
+        <!-- Evaluate_screen -->
+        <string name="star_rating_eva">Please select a star rating</string>
+        <string name="thank_review_eva">Thank you for your review!</string>
+        <string name="review_shop_eva">Review ToyStory Shop</string>
+        <string name="feedback_eva">Enter your feedback here</string>
+        <string name="submit_review_eva">Submit Review</string>
+
+        <!-- Introduce_Friends_screen -->
+        <string name="intro_title_int">Discover ToyStory Shop now with unique toy models and receive special rewards with your referral code:</string>
+        <string name="share_with_friends_int">Share with friends via</string>
+        <string name="intro_rewards_int">Refer &amp; receive special rewards</string>
+        <string name="share_referral_code_int">Share your referral code</string>
+        <string name="steps_to_get_rewards_int">Guide your friends through the following steps to get rewards for both of you:</string>
+        <string name="step_1_int">1. Open the ToyStory Shop app and select Referral.</string>
+        <string name="step_2_int">2. Enter the referral code when registering an account.</string>
+        <string name="step_3_int">3. After completing the steps, both of you will receive special rewards.</string>
+        <string name="share_button_int">Share with friends</string>
+
+        <!-- Privacy_Security_screen -->
+        <string name="privacy_security_title">Privacy &amp; Security</string>
+        <string name="privacy_content">
+    <![CDATA[
+    ToyStory Shop is committed to protecting your privacy and personal information security. Please read the following terms carefully to understand how we use and protect your information.\n\n
+
+    1. Collection and Use of Personal Data:\n
+    We collect personal information such as your name, addressModel, phone number, email, and payment details to provide the best service. This information is used solely to complete orders, support customers, and enhance your experience.\n\n
+
+    2. Cookies and Tracking Technologies:\n
+    ToyStory Shop uses cookies and tracking technologies to personalize your experience and monitor browsing behavior for service improvements. You can choose to decline or manage cookies as needed.\n\n
+
+    3. Access, Edit, and Delete Data Rights:\n
+    You have the right to access, edit, or request deletion of your personal information. Please contact us via your account or support to proceed.\n\n
+
+    4. Sharing Information with Third Parties:\n
+    ToyStory Shop shares information with third parties only when necessary, such as with delivery or payment partners, to fulfill your orders. These parties adhere to high security standards to protect your information.\n\n
+
+    5. Information Security:\n
+    We implement technical and organizational measures to protect personal data, including encryption and two-factor authentication. All payment transactions are encrypted to secure your financial data.\n\n
+
+    6. Privacy Policy Updates:\n
+    ToyStory Shop reserves the right to modify its privacy and security policies as necessary. We encourage you to check periodically to stay informed about your rights and responsibilities.\n\n
+
+    7. Contact and Support:\n
+    If you have questions or requests regarding privacy, please contact us via our support email or phone number.
+    ]]>
+</string>
+        <string name="privacy_agree">I have read and agree to the Privacy &amp; Security terms.</string>
+        <string name="accepted_message_privacy">You have agreed to the Privacy &amp; Security terms.</string>
+        <string name="confirm_exit_without_accepting_privacy">
+        Are you sure you want to exit without agreeing to the Privacy &amp; Security terms?
+        </string>
+
+        <!-- Setting_screen -->
+        <string name="dark_mode_enabled_set">Dark mode has been </string>
+        <string name="dark_mode_on_set">enabled</string>
+        <string name="dark_mode_off_set">disabled</string>
+        <string name="update_profile_set">Update personal information</string>
+        <string name="change_password_set">Change password</string>
+        <string name="notification_set">Notifications</string>
+        <string name="dark_mode_set">Dark mode</string>
+        <string name="contact_support_set">Contact support</string>
+        <string name="status_notifi">Notifications have been</string>
+        <string name="intro_title_detail">Buy product now:</string>
+        <string name="noti_block">Turn off notifications</string>
+        <string name="notification">Notification</string>
+        <string name="ed">has been</string>
+        <string name="support">Support</string>
+        <string name="support_chat">Chat support</string>
+        <string name="support_phone">Phone support</string>
+        <string name="support_email">Email support</string>
+        <string name="service">Service</string>
+        <string name="attachment">Attachment</string>
+        <string name="title_contact">Title</string>
+        <string name="descr_contact">Description</string>
+        <string name="btn_attachm">Choose file</string>
+        <string name="edt_email">Enter your email</string>
+        <string name="edt_title">Enter title</string>
+        <string name="edt_des">Enter description</string>
+        <string name="send_contact">Send</string>
+        <string name="prompt_select_city">Select province/city</string>
+        <string name="prompt_select_district">Select district</string>
+
+        <!-- Terms_Conditions_screen -->
+        <string name="conditions_content_ter">
+    <![CDATA[
+    Welcome to the ToyStory Shop app! Please read the following Terms and Conditions carefully before using our application.\n\n
+
+    1. Terms of Use: By accessing and using the ToyStory Shop app, you agree to these Terms. If you do not agree, please stop using the app.\n\n
+
+    2. Account Registration: You must register an account to purchase and use ToyStory Shop features. You are responsible for securing your account and not sharing your account information.\n\n
+
+    3. Products and Pricing: We offer genuine model toys. Product prices may change without prior notice, but the order price will be the final payment amount.\n\n
+
+    4. Payment: ToyStory Shop supports online payment methods. You need to ensure full payment before we proceed with delivery.\n\n
+
+    5. Shipping Policy: We ship nationwide with a delivery time of 3-7 working days. Shipping fees will be displayed during checkout.\n\n
+
+    6. Return Policy: Products can be returned within 7 days if unused and in original packaging. If the product is defective due to manufacturing, you will receive a free exchange.\n\n
+
+    7. Information Security: We are committed to protecting your personal information and using it only to provide the best service.\n\n
+
+    8. Terms Modification: ToyStory Shop reserves the right to change these Terms without prior notice. Changes will take effect immediately upon being updated.\n\n
+
+    By using the ToyStory Shop app, you agree to these Terms and Conditions.\n\n
+    ]]>
+</string>
+        <string name="accepted_message_ter">Thank you for accepting the terms!</string>
+        <string name="confirm_exit_without_accepting_ter">Are you sure you want to exit without accepting the terms?</string>
+        <string name="exit_button_ter">Exit</string>
+        <string name="stay_button_ter">Stay</string>
+        <string name="terms_and_conditions_title_ter">Terms and Conditions</string>
+        <string name="agree_statement_ter">I agree to the terms and conditions</string>
+        <string name="accept_button_ter">Accept</string>
+
+        <!-- forgot_pass -->
+        <string name="forgot_text">Verify your information</string>
+        <string name="forgot_text1">Please enter your information to reset your password</string>
+        <string name="send_button">Send Request</string>
+        <string name="Toast_send">We have sent a mail to your inbox to reset your password!</string>
+        <string name="Toast_send_error">Cannot send mail. Please check your email addressModel again.</string>
+
+        <!-- forgotOTP -->
+        <string name="forgot_otp_pass">Please enter a new password</string>
+        <string name="forgot_otp_success">Password updated successfully!</string>
+        <string name="forgot_otp_error">Password update failed!</string>
+        <string name="forgot_otp_title">Update password!</string>
+
+        <!-- phone number -->
+        <string name="send_sdt">Verify your phone number</string>
+        <string name="send_text_phone">We have sent an SMS with a code to your phone number</string>
+        <string name="send_otp_error">Failed to send OTP:</string>
+
+        <!-- phone otp -->
+        <string name="no_otp">Didn\'t receive any code? Resend code</string>
+        <string name="otp_verify">Please enter a valid OTP.</string>
+        <string name="otp_fail">Verification failed!</string>
+
+        <!-- signin -->
+        <string name="welcome_text">Welcome to ToyStory Shop!</string>
+        <string name="signin_account">Sign in to your account</string>
+        <string name="email_hint">Email/Phone Number</string>
+        <string name="password_hint">Password</string>
+        <string name="signin_button">Sign In</string>
+        <string name="google_login_button">Sign in with Google</string>
+        <string name="forgot_password">Forgot Password?</string>
+        <string name="signup_prompt">Don\'t have an account?</string>
+        <string name="signup_now">Sign Up Now</string>
+
+        <!-- signup -->
+        <string name="signup_account">Sign up for your account</string>
+        <string name="name_hint">Full Name</string>
+        <string name="re_password_hint">Re-enter Password</string>
+        <string name="signup_button">Sign Up</string>
+        <string name="signin_prompt">Already have an account?</string>
+        <string name="signin_now">Sign In Now</string>
+        <string name="signup_sdt">Sign up successfully! Please enter your phone number.</string>
+
+        <!-- Toast Register_login -->
+        <string name="Toast_infor">Please fill in all the information!</string>
+        <string name="Toast_email">Please enter a valid email addressModel!</string>
+        <string name="Toast_format">Please enter the correct format!</string>
+        <string name="Toast_google">Google Sign-In failed!</string>
+        <string name="Toast_success">Sign in successful</string>
+        <string name="Toast_failure">Sign in failed!</string>
+        <string name="Toast_success_sign">Sign up successful!</string>
+        <string name="Toast_failure_signup">Sign up failed!</string>
+        <string name="Toast_wrong_password">Wrong password!</string>
+        <string name="Toast_donot_pass">Passwords do not match!</string>
+        <string name="Toast_wrong_sdt">Phone number does not exist!</string>
+        <string name="Toast_pass">Password must have at least 6 characters, including at least 1 uppercase letter!</string>
+        <string name="Toast_wrong">The information you entered is incorrect, please check again!</string>
+
+        <!-- menu -->
+        <string name="home_menu">Home</string>
+        <string name="browse_menu">Browse</string>
+        <string name="artstory_menu">News</string>
+        <string name="history_menu">Purchase History</string>
+        <string name="profile_menu">Profile</string>
+
+
+
+
+
+        <string name="sort_by">Sort By</string>
+        <string name="blindbox">Blind Box</string>
+        <string name="search_hint">Search for products</string>
+        <string name="search">Search</string>
+        <string name="other_products">Other Products</string>
+        <string name="newarrivals">New Arrivals</string>
+        <string name="limited_figure">Limited Figure</string>
+        <string name="figuring">Figuring</string>
+        <string name="art_store">Art Store</string>
+        <string name="location">Location</string>
+        <string name="category">Category</string>
+
+        <string name="favorite_list">Favorite List</string>
+        <string name="my_store">My Store</string>
+        <string name="name_pro">Product Name</string>
+        <string name="add_cart">Add to Cart</string>
+        <string name="brand">Brand: </string>
+
+        <string name="add_address">Add addressModel</string>
+        <string name="name_address">Full name</string>
+        <string name="phone_address">Phone number</string>
+        <string name="addressModel">Address</string>
+        <string name="address_rev">Delivery addressModel</string>
+        <string name="address_detail">Detailed addressModel</string>
+        <string name="save">Save</string>
+        <string name="choose_address">Choose your addressModel</string>
+        <string name="enter_mess">Enter message</string>
+        <string name="send">Send</string>
+        <string name="cart">Cart</string>
+        <string name="choose_code">Choose or enter code</string>
+        <string name="all">All</string>
+        <string name="buy">Buy</string>
+        <string name="pay">Pay</string>
+        <string name="method_ship">Shipping method</string>
+        <string name="method_pay">Payment method</string>
+        <string name="detail_pay">Payment details</string>
+        <string name="total_pro">Total product cost</string>
+        <string name="total_ship">Total shipping fee</string>
+        <string name="total_pay">Total payment</string>
+        <string name="sp">Do you need assistance?</string>
+
+        <string name="info_pro">Product information</string>
+        <string name="info_order">Order information</string>
+        <string name="feedback_order_his">Review</string>
+
+        <string name="article_title">Article Title</string>
+        <string name="author">Author</string>
+        <string name="publish_date">Publish Date</string>
+        <string name="article_content">Detailed Content of the Article</string>
+        <string name="image_caption_1">Image Caption 1</string>
+        <string name="image_caption_2">Image Caption 2</string>
+        <string name="image_caption_3">Image Caption 3</string>
+        <string name="filter">Filter</string>
+        <string name="enter_password">Enter Password</string>
+        <string name="chat">Chat</string>
+        <string name="purchased_products">Purchased Products</string>
+        <string name="shop_voucher">Shop Voucher</string>
+        <string name="save_money">Save Money</string>
+        <string name="approved_check">Approved Check</string>
+        <string name="message_for_shop">Message for Shop</string>
+        <string name="leave_message">Leave a Message</string>
+        <string name="free_shipping">Free Shipping</string>
+        <string name="payment_on_delivery">Payment on Delivery</string>
+        <string name="agree_terms">Clicking \'Place Order\' means you agree to follow</string>
+        <string name="soy_story_terms">SoyStory Terms</string>
+        <string name="place_order">Place Order</string>
+        <string name="contact_shop">Contact Shop</string>
+        <string name="total_amount">Total Amount</string>
+        <string name="paypal_wallet_favorite">PayPal Wallet (Favorite)</string>
+        <string name="agree">AGREE</string>
+
+        <string name="fast_delivery_excluding_weekends">Fast delivery (excluding Sat - Sun)</string>
+        <string name="official_distribution">ToyStory Shop officially distributes products from brands</string>
+        <string name="discount_shipping_for_all_orders">Shipping discount for all orders</string>
+        <string name="note_return_exchange">***Note: Products can be returned/exchanged within 3 days of receipt if due to manufacturer defects and must include an unboxing video.</string>
+        <string name="low_stock">Low stock: Remaining</string>
+        <string name="product"> product(s)</string>
+        <string name="details">Product Details</string>
+        <string name="shipping_methods">Shipping methods of ToyStory Shop\nYou can track your order on the ToyStory Shop app when choosing one of the following shipping methods:</string>
+        <string name="fast">Fast</string>
+        <string name="express_shipping">Express</string>
+        <string name="guaranteed_delivery_today">Guaranteed delivery today</string>
+        <string name="confirm">Confirm</string>
+        <string name="store_location">Store Location</string>
+        <string name="toy_story_shop_description">ToyStory Shop is an official retailer of toy models from famous brands such as LEGO, Bandai, Funko, Hot Wheels, etc.</string>
+        <string name="enter_location_to_find_nearest_store">Enter your location to find the nearest store</string>
+        <string name="enter_email">Enter email</string>
+        <string name="enter_name">Enter name</string>
+        <string name="enter_phone_number">Enter phone number</string>
+        <string name="select_voucher">Select Voucher</string>
+        <string name="shipping_fee_discount">Shipping Fee Discount</string>
+        <string name="can_select_one_voucher">Can select one voucher</string>
+        <string name="see_more">See More</string>
+        <string name="change_address">Change Address</string>
+        <string name="address_details">Address Details</string>
+        <string name="wholesale_price_available">Wholesale price available</string>
+
+        <string name="quantity">Quantity</string>
+        <string name="warehouse">Warehouse</string>
+        <string name="price">Price</string>
+        <string name="apply">Apply</string>
+        <string name="from">From</string>
+        <string name="to">To</string>
+        <string name="sort">Sort</string>
+        <string name="purchase_order">Purchase Order</string>
+        <string name="view_purchase_history">View Purchase History</string>
+        <string name="waiting_for_confirmation">Waiting for Confirmation</string>
+        <string name="waiting_for_pickup">Waiting for Pickup</string>
+        <string name="waiting_for_delivery">Waiting for Delivery</string>
+        <string name="free_return">Free Return</string>
+        <string name="in_stock">In Stock</string>
+        <string name="product_description">Product Description</string>
+        <string name="customer_name">Customer Name</string>
+        <string name="customer_phone">Customer Phone Number</string>
+        <string name="customer_address">Customer Address</string>
+        <string name="default1">Default</string>
+        <string name="delete">Delete</string>
+        <string name="review_content">Review Content</string>
+        <string name="product_review">Product Review</string>
+        <string name="delivered">Delivered</string>
+        <string name="limited_stock">Limited Stock</string>
+        <string name="maximum_discount">Maximum Discount</string>
+        <string name="minimum_order_0d">Minimum Order 0₫</string>
+
+        <string name="sort_by1">Sort by</string>
+        <string name="highlighted">Highlighted</string>
+        <string name="best_selling">Best Selling</string>
+        <string name="alphabetical_order">Alphabetical Order (A-Z)</string>
+        <string name="reverse_alphabetical_order">Reverse Alphabetical Order (Z-A)</string>
+        <string name="price_low_to_high">Price (Low to High)</string>
+        <string name="price_high_to_low">Price (High to Low)</string>
+        <string name="date_newest_to_oldest">Date (Newest to Oldest)</string>
+        <string name="date_oldest_to_newest">Date (Oldest to Newest)</string>
+
+
+</resources>

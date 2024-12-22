@@ -1,0 +1,13 @@
+<!-- res/drawable/progress_voucher_status.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape>
+            <solid android:color="#DDDDDD" />
+        </shape>
+    </item>
+    <item android:id="@android:id/progress">
+        <shape>
+            <solid android:color="#FF6D00" />
+        </shape>
+    </item>
+</layer-list>

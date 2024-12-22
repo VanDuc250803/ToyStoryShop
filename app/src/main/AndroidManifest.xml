@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:configChanges="locale|layoutDirection"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/ic_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DATN_ToyStoryShop"
+        android:usesCleartextTraffic="true"
+        android:windowSoftInputMode="adjustPan|stateHidden"
+        tools:targetApi="31">
+        <activity
+            android:name=".Thanks_payment"
+            android:exported="false" />
+        <activity
+            android:name=".Detail.Refund_Detail"
+            android:exported="false" />
+        <activity
+            android:name=".Detail.Order_refund_Detail"
+            android:exported="false" />
+        <activity
+            android:name=".Detail.Order_Delivered_Detail"
+            android:exported="false" />
+        <activity
+            android:name=".Home.Banner.Toys_52_screen"
+            android:exported="false" />
+        <activity
+            android:name=".Home.Banner.Blokees_screen"
+            android:exported="false" />
+        <activity
+            android:name=".Home.Banner.SquidGame_screen"
+            android:exported="false" />
+        <activity
+            android:name=".Home.Banner.Heyone_screen"
+            android:exported="false" />
+        <activity
+            android:name=".Home.Banner.FindingUnicorn_screen"
+            android:exported="false" />
+        <activity
+            android:name=".Home.Banner.BandaiCandy_screen"
+            android:exported="false" />
+        <activity
+            android:name=".Detail.Order_Confirm_Detail"
+            android:exported="false" />
+        <activity
+            android:name=".History_purchase.history_cancel_screen"
+            android:exported="false" />
+        <activity
+            android:name=".history.History_purchase_screen"
+            android:exported="false" />
+        <activity
+            android:name=".Home.Sale_screen"
+            android:exported="false" />
+        <activity
+            android:name=".PayPalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Detail.OrderHist_Detail"
+            android:exported="false" />
+        <activity
+            android:name=".Shopping.ShippingUnit_screen"
+            android:exported="false" />
+        <activity
+            android:name=".Shopping.Payment_method_screen"
+            android:exported="false" />
+        <activity
+            android:name=".Detail.ArtStory_detail"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyA-rwWM26GHvGh2sRvaMDJoz9TgMExk9wo" />
+
+        <activity
+            android:name=".Home.All_new_screen"
+            android:exported="false" />
+        <activity
+            android:name=".Home.Popular_screen"
+            android:exported="false" />
+        <activity
+            android:name=".Home.Store_follow_screen"
+            android:exported="false" />
+        <activity
+            android:name=".Shopping.Cart_screen"
+            android:exported="false" />
+        <activity
+            android:name=".Contact_support.Chat_contact"
+            android:exported="false"
+            android:theme="@style/Theme.DATN_ToyStoryShop" />
+        <activity
+            android:name=".Contact_support.Email_contact"
+            android:exported="false" />
+        <activity
+            android:name=".Profile.Evaluate_screen"
+            android:exported="false" />
+        <activity
+            android:name=".Profile.Privacy_Security_screen"
+            android:exported="false" />
+        <activity
+            android:name=".Profile.Terms_Conditions_screen"
+            android:exported="false" />
+        <activity
+            android:name=".Profile.Introduce_Friends_screen"
+            android:exported="false" />
+        <activity
+            android:name=".Profile.Setting.Currency_Language_screen"
+            android:configChanges="locale|layoutDirection"
+            android:exported="false" />
+        <activity
+            android:name=".Profile.Setting_screen"
+            android:exported="false" />
+        <activity
+            android:name=".Register_login.PhoneNumber_screen"
+            android:exported="false" />
+        <activity
+            android:name=".Register_login.PhoneOTP_screen"
+            android:exported="false" />
+        <activity
+            android:name=".Register_login.Forgot_pass"
+            android:exported="false" />
+        <activity
+            android:name=".Register_login.ForgotOTP_screen"
+            android:exported="false" />
+        <activity
+            android:name=".Profile.ContactSupport_screen"
+            android:exported="false" />
+        <activity
+            android:name=".Profile.Setting.ChangePassword_screen"
+            android:exported="false" />
+        <activity
+            android:name=".Profile.Setting.UpdateInfo_screen"
+            android:exported="false" />
+        <activity
+            android:name=".Home.OtherProducts_screen"
+            android:exported="false" />
+        <activity
+            android:name=".Home.LimitedFigure_screen"
+            android:exported="false" />
+        <activity
+            android:name=".Home.Figuring_screen"
+            android:exported="false" />
+        <activity
+            android:name=".Home.BlindBox_screen"
+            android:exported="false" />
+        <activity
+            android:name=".Home.NewArrivals_screen"
+            android:exported="false" />
+        <activity
+            android:name=".Register_login.SignIn_screen"
+            android:exported="false" />
+        <activity
+            android:name=".Detail.Product_detail"
+            android:exported="false" />
+        <activity
+            android:name=".Shopping.Favorite_screen"
+            android:exported="false" />
+        <activity
+            android:name=".Shopping.Voucher_screen"
+            android:exported="false" />
+        <activity
+            android:name=".Shopping.Order_screen"
+            android:exported="false" />
+        <activity
+            android:name=".Home_screen"
+            android:exported="false" />
+        <activity
+            android:name=".Shopping.AddressList_Screen"
+            android:exported="false" />
+        <activity
+            android:name=".Register_login.SignUp_screen"
+            android:exported="false" />
+        <activity
+            android:name=".Shopping.Add_address_screen"
+            android:exported="false" />
+        <activity
+            android:name=".Register_login.Welcome_screen"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

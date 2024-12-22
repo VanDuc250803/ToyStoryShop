@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/GB"
+    android:padding="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_below="@id/addressLayout"
+            android:layout_marginTop="3dp"
+            android:alpha="0.5"
+            android:contentDescription="Separator"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_bgc"
+            app:tint="#CACACA" />
+
+        <LinearLayout
+            android:id="@+id/itemContent"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="horizontal"
+            android:padding="2dp">
+
+            <!-- CheckBox để chọn sản phẩm -->
+            <CheckBox
+                android:id="@+id/checkBoxSelectItem"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical" />
+
+            <!-- Hình ảnh sản phẩm -->
+            <ImageView
+                android:id="@+id/productImage"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="4dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_launcher_background" />
+
+            <!-- Thông tin chi tiết sản phẩm -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/productName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="@string/name_pro"
+                    android:textColor="#333333"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <!-- Thông tin chi tiết sản phẩm -->
+                    <LinearLayout
+
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <!-- Màu sắc lựa chọn -->
+                        <Spinner
+                            android:id="@+id/colorSpinner"
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp" />
+
+                        <!-- Nút Trả hàng miễn phí -->
+                        <TextView
+                            android:id="@+id/freeReturn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp"
+                            android:background="@drawable/rounded_background1"
+                            android:padding="4dp"
+                            android:text="@string/free_return"
+                            android:textColor="#FF6600"
+                            android:textSize="10sp" />
+
+                        <!-- Giá sản phẩm -->
+                        <TextView
+                            android:id="@+id/productPrice"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginVertical="4dp"
+                            android:text="759.000đ"
+                            android:textColor="#D32F2F"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <!-- Thông tin giá và điều chỉnh số lượng -->
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="bottom|end"
+                        android:orientation="vertical">
+                        <!-- Bộ điều chỉnh số lượng -->
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <!-- Nút giảm số lượng -->
+                            <TextView
+                                android:id="@+id/btnDecrease"
+                                android:layout_width="32dp"
+                                android:layout_height="32dp"
+                                android:background="#EEEEEE"
+                                android:gravity="center"
+                                android:text="-"
+                                android:textColor="#333333" />
+
+                            <!-- Hiển thị số lượng -->
+                            <TextView
+                                android:id="@+id/tvQuantity"
+                                android:layout_width="32dp"
+                                android:layout_height="32dp"
+                                android:gravity="center"
+                                android:text="1"
+                                android:textColor="#333333" />
+
+                            <!-- Nút tăng số lượng -->
+                            <TextView
+                                android:id="@+id/btnIncrease"
+                                android:layout_width="32dp"
+                                android:layout_height="32dp"
+                                android:background="#EEEEEE"
+                                android:gravity="center"
+                                android:text="+"
+                                android:textColor="#333333" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/hiddenTextView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="end|top"
+        android:background="#FF0000"
+        android:clickable="true"
+        android:elevation="10dp"
+        android:focusable="true"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="Xóa"
+        android:textColor="#FFFFFF"
+        android:visibility="gone">
+
+    </TextView>
+
+
+</FrameLayout>

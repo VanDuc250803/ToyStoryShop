@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?><!-- res/values/arrays.xml -->
+<resources>
+    <string-array name="languages_array">
+        <item>Tiếng Việt</item>
+        <item>English</item>
+        <item>日本語</item>
+        <item>中文</item>
+    </string-array>
+
+    <string-array name="currency_array">
+        <item>VND</item>
+        <item>USD</item>
+        <item>JPY</item>
+        <item>CNY</item>
+    </string-array>
+
+    <string-array name="city_list">
+        <item>Hà Nội</item>
+        <item>Hà Nam</item>
+        <item>Hồ Chí Minh</item>
+    </string-array>
+
+
+    <string-array name="district_list_hanoi">
+        <item>Nam Từ Liêm</item>
+    </string-array>
+
+    <string-array name="district_list_hanam">
+        <item>Duy Tiên</item>
+    </string-array>
+
+    <string-array name="district_list_saigon">
+        <item>Quận 12</item>
+    </string-array>
+    <string-array name="color_options">
+        <item>Mô hình riêng lẻ</item>
+        <item>Nguyên set 12 hộp</item>
+    </string-array>
+
+
+</resources>

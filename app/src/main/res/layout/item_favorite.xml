@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/SCREEN"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:elevation="4dp"
+        app:cardCornerRadius="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/GB"
+            android:padding="16dp">
+
+            <!-- ImageView for product image -->
+            <ImageView
+                android:id="@+id/image_view_fav"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:layout_centerHorizontal="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_launcher_background" />
+
+            <!-- Product Name -->
+            <TextView
+                android:id="@+id/tvTen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/image_view_fav"
+                android:layout_marginTop="10dp"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:text="Tên sản phẩm"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvGia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvTen"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="4dp"
+                android:text="Giá: 100000 VND"
+                android:textColor="#FF5722"
+                android:textSize="16sp" />
+
+            <!-- Heart Icon -->
+            <ImageView
+                android:id="@+id/heart_icon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/tvTen"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="10dp"
+                android:contentDescription="Heart Icon"
+                android:src="@drawable/ic_heart" />
+
+            <!-- Product Status -->
+            <TextView
+                android:id="@+id/tvStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvGia"
+                android:paddingTop="4dp"
+                android:text="@string/in_stock"
+                android:textColor="#4CAF50"
+                android:textSize="14sp" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
